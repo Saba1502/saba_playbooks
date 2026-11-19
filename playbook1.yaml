@@ -5,4 +5,11 @@
   vars:
     - user: saba
   tasks:
+    - name: Creating a file with my name
+      file:
+        path: "/tmp/{{ user }}_logs.txt"
+        owner: saba
+        group: saba
+        mode: '0644'
+        state: touch
 
