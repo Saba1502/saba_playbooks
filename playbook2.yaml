@@ -5,6 +5,11 @@
   vars:
     user: saba_git
   tasks:
-   
+    - name: Creating user {{ saba_git }}
+      user:
+        name: "{{ saba_git }}"
+        comment: "{{ user }}@aol.com
+        state: present
+        
 
 
