@@ -1,0 +1,8 @@
+---
+- name: Creating a file in nasir
+  hosts: saba
+  gather_facts: no
+  vars:
+    - user: saba
+  tasks:
+
