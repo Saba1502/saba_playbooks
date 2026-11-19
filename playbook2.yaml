@@ -1,0 +1,10 @@
+---
+- name: Adding saba_git user
+  hosts: saba
+  gather_facts: no
+  vars:
+    user: saba_git
+  tasks:
+   
+
+
